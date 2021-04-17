@@ -7,3 +7,6 @@ const student = [
 
 const ids = student.filter(i => i.id > 140);
 console.log(ids);
+
+const remaining = student.filter(i => i.id != 121); // removing one item from multiple item
+console.log(remaining);

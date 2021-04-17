@@ -17,3 +17,8 @@ console.log(names);
 
 // const ids = student.map(i => i.id);
 // console.log(ids);
+
+const names2 = student.map(s => { // if multiple lines are written, then return statement is mandatory
+    return s.name;
+}); // apply map on array
+console.log(names2);

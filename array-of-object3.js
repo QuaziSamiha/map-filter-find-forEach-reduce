@@ -5,5 +5,5 @@ const student = [
     { id: 131, name: 'hablu' }
 ];
 
-const ids = student.find(i => i.id > 140);
-console.log(ids);
+const names = student.find(i => i.name === 'tasnuva'); // finding one item from array
+console.log(names);
